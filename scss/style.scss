@@ -1,0 +1,52 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  row-gap: 10px;
+  border: 1px solid #646464;
+  padding: 15px;
+  margin: 40px;
+}
+
+input {
+  padding: 5px;
+}
+
+button[type=submit] {
+  background: rgb(114, 114, 204);
+  height: 45px;
+  margin-top: 15px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button[type=submit]:hover {
+  background: rgb(107, 107, 192);
+}
+
+select {
+  height: 30px;
+}
+
+#langs {
+  height: 60px;
+  padding: 5px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h3[complete] {
+  color: rgb(106, 224, 106);
+}
+
+h3[err] {
+  color: red;
+}
